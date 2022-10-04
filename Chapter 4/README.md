@@ -8,7 +8,7 @@
     - [Cài đặt phần mềm Keil](https://youtu.be/2XGIxUrcIy8?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx)
     - [Kết nối Board với PC](https://youtu.be/EWmE7upEX6A?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx)
     - [Tạo dự án với phần mềm Keil for ARM](https://youtu.be/9QT82zmpWjo?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx)
-    - [Các bước lập trình vi điều khiển STM32F1](http://) - [Source Code]()
+    - [Cấu trúc một chương trình cơ bản](http://) - [Source Code]()
     - Lập trình với thanh ghi cơ bản - [Source Code]()
     - Lập trình với thư viện SPL - [Source Code]()
     - Lập trình giao tiếp GPIO - [Source Code]()
@@ -21,4 +21,4 @@
 ---
 Playlist Youtube tham khảo: [Link Youtube](https://www.youtube.com/playlist?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx)
 ---
-Mọi ý kiến đóng góp xin gửi email về email: ptit.fee1.electroniccomputer@gmail.com
+Mọi ý kiến đóng góp xin gửi vào email: ptit.fee1.electroniccomputer@gmail.com

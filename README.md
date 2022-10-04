@@ -11,4 +11,4 @@
 ---
 ## Chuong IV: [Lập trình vi điều khiển ARM](./Chapter%204/README.md)
 ---
-Mọi ý kiến đóng góp xin gửi email về email: ptit.fee1.electroniccomputer@gmail.com
+Mọi ý kiến đóng góp xin gửi vào email: ptit.fee1.electroniccomputer@gmail.com
