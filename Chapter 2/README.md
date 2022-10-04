@@ -1,13 +1,7 @@
 # TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT XI XỬ LÝ" - ELE1317
-## Giảng viên: Lương Công Duẩn
-----------------------------------------------------------------
-## Chương I: 
-
-----------------------------------------------------------------
-## Chương II:
-
-----------------------------------------------------------------
-## Chương III:
-
-----------------------------------------------------------------
-## Chuong IV: 
+# CHƯƠNG II: VI XỬ LÝ ARM
+---
+Giới thiệu tổng quan về ARM và các đặc điểm của Vi xử lý ARM
+[HỌC LIỆU THAM KHẢO](./../Materials/Chuong%202_Vi%20xu%20ly%20ARM.pdf)
+---
+Mọi ý kiến đóng góp xin gửi email về email: ptit.fee1.electroniccomputer@gmail.com
