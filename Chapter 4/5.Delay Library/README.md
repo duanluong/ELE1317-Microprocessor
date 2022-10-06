@@ -1,6 +1,6 @@
 # THƯ VIỆN DELAY SỬ DỤNG SYSTICK
 ## Giải thích:
-Ở các ví dụ trên chúng ta đã xây dựng hàm delay để tạo ra đỗ trễ về hoạt động nhằm có thể quan sát được các hiện tượng như nhấp nháy LED tuy nhiên các hàm delay này thường có độ chính xác không cao. Sau khi đã sử dụng Systick chúng ta thấy rằng đây là một bộ đếm có độ chính xác cao, do đó ở đây chúng ta tạo ra một thư viện Delay bao gồm 3 hàm Init, ms và us để tạo ra các hàm delay với độ chính xác cao.
+Ở các ví dụ trên chúng ta đã xây dựng hàm delay để tạo ra đỗ trễ về hoạt động nhằm có thể quan sát được các hiện tượng như nhấp nháy LED tuy nhiên các hàm delay này thường có độ chính xác không cao. Sau khi đã sử dụng Systick chúng ta thấy rằng đây là một bộ đếm có độ chính xác cao, do đó ở đây chúng ta tạo ra một thư viện Delay bao gồm 3 hàm Init, ms và us để tạo ra các hàm delay với độ chính xác cao. Thư viện này sẽ được sử dụng xuyên suốt trong quá trình thực hiện các VD của môn học này khi cần sử dụng đến các hàm Delay.
 
 Thư viện như sau:
 
