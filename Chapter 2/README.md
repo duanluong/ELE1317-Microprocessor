@@ -1,4 +1,4 @@
-# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT XI XỬ LÝ" - ELE1317
+# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT VI XỬ LÝ" - ELE1317
 # CHƯƠNG II: VI XỬ LÝ ARM
 ---
 Giới thiệu tổng quan về ARM và các đặc điểm của Vi xử lý ARM

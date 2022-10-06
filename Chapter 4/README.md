@@ -1,4 +1,4 @@
-# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT XI XỬ LÝ" - ELE1317
+# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT VI XỬ LÝ" - ELE1317
 # CHƯƠNG IV: Lập trình vi điều khiển ARM
 ---
 ### Nội dung:

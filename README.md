@@ -1,4 +1,4 @@
-# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT XI XỬ LÝ" - ELE1317
+# TÀI LIỆU HỌC TẬP MÔN "KỸ THUẬT VI XỬ LÝ" - ELE1317
 ---
 ## Chương I: [Tổng quan về vi xử lý](./Chapter%201/README.md)
 
