@@ -4,6 +4,8 @@ void delay(int time);
 void RCC_Config (void);
 void GPIO_Config (void);
 void GPIO_WriteToLED (unsigned char value);
+void GPIO_SetHighLevel (void);
+void GPIO_SetLowLevel (void);
 
 int main (void){
 	SystemInit();
@@ -16,6 +18,11 @@ int main (void){
 		delay(1000);
 		GPIO_WriteToLED(0);
 		delay(1000);
+		/* 2nd way */
+//		GPIO_SetHighLevel();
+//		delay(1000);
+//		GPIO_SetLowLevel();
+//		delay(1000);
 	}
 }
 
@@ -47,5 +54,13 @@ void GPIO_WriteToLED (unsigned char value){
 	else{
 		GPIOC->ODR &= ~(1<<13);
 	}
+}
+
+void GPIO_SetHighLevel (void){
+	GPIOC->BSRR = (1<<13);
+}
+
+void GPIO_SetLowLevel (void){
+	GPIOC->BRR = (1<<13);
 }
 

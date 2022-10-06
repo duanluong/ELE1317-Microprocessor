@@ -15,6 +15,7 @@ Với việc lập trình sử dụng trực tiếp thanh ghi người lập tr�
 **Thử nghiệm**:
 - Nạp code và quan sát hiện tượng trên LED
 - Lưu ý: Một số Board có thể nạp nhưng không tự Reset cần nhấn nút Reset trên Board để MCU bắt đầu khởi chạy.
+- Uncomment đoạn ***code 2nd way***, comment đoạn còn lại trong while(1) thử nghiệm và giải thích.
 - Thử thay đổi thông số delay, build lại code, nạp và thử nghiệm lại.
 -
 **Mở rộng**:
