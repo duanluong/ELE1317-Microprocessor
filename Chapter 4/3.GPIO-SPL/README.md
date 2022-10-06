@@ -1,4 +1,4 @@
-# LẬP TRÌNH GPIO SỬ DỤNG THANH GHI
+# LẬP TRÌNH GPIO SỬ DỤNG SPL (Standard Peripherals Library)
 ## Giới thiệu lập trình sử dụng SPL
 SPL (_Standard Peripherals Library_)/SPD (_Standard Peripherals Driver_) là bộ thư viện chuẩn hóa được sử dụng để hỗ trợ lập trình viên có thể tiếp cận nhanh với các ngoại vi thông qua các hàm đã được chuẩn hóa và có thể sử dụng trên nhiều dòng vi điều khiển thay vì phải tra Datasheet và User Manual rất kỹ như cách tiếp cận sử dụng các thanh ghi của vi điều khiển. Do đặc thù các MCU ngày càng phức tạp, việc tiếp cận thông qua các thư viện hỗ trợ ngoại vi theo kiểu SPL sẽ giúp cho quá trình phát triển và làm quen với các dòng vi điều khiển được nhanh hơn. Các bạn có thể tham khảo thêm các thư viện như [HAL](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiR-oiT4cv6AhWURd4KHfRcDxkQFnoECBYQAQ&url=https%3A%2F%2Fwww.st.com%2Fresource%2Fen%2Fuser_manual%2Fdm00154093-description-of-stm32f1-hal-and-lowlayer-drivers-stmicroelectronics.pdf&usg=AOvVaw1cH2oa0f2-yv8NyT4_GyFv) hoặc một số thư viện khác.
 
