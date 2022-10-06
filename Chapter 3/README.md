@@ -3,7 +3,8 @@
 ---
 - Giới thiệu về các tập lệnh ASM của vi xử lý ARM
 - Hướng dẫn lập trình ASM cho ARM cơ bản
-[HỌC LIỆU THAM KHẢO](./../Materials/Chuong%202_Vi%20xu%20ly%20ARM.pdf)
+
+- [HỌC LIỆU THAM KHẢO](./../Materials/Chuong%202_Vi%20xu%20ly%20ARM.pdf)
 - Công cụ sử dụng:
     - Website mô phỏng ASM: [CPU-lator](https://cpulator.01xz.net/)
     - Hướng dẫn sử dụng CPU-lator: [Hướng dẫn CPU-lator]()
