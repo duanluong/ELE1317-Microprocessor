@@ -1,6 +1,7 @@
 # Điều chế độ rộng xung - PWM (Pulse-Width Modulation)
 ## Giải thích
 ![PWM](./docs/1.PWM.png)
+
 Bộ điều chế xung, hay còn gọi là bộ _“băm xung”_ là bộ xử lý và điều khiển tạo ra dạng xung vuông với chu kỳ và độ rộng thay đổi theo cấu hình. Đây là phương pháp điều chỉnh điện áp ra tải dựa vào trung bình tín hiệu điều chế. Khi độ rộng xung tăng, trung bình điện áp ra tăng. Các module PWM thường sử dụng tần số điều chế không đổi, và điều chỉnh dựa trên sự thay đổi của độ rộng xung _(Duty Cycle)_.
 - Duty Cycle là tỷ lệ phần trăm thời gian mức cao so với toàn chu kỳ.
 - Period: chu kỳ của xung là thời gian thực hiện xong 1 chu kỳ băm tín hiệu.
@@ -16,10 +17,11 @@ PWM là một chức năng tích hợp của bộ Timer vì vậy để sử d�
 Ngoài ra, việc điều chế độ rộng xung cần thông qua các cổng của vi điều khiển và vi điều khiển STM32 có những yêu cầu đặc biệt về chế độ của cổng khi sử dụng với các bộ ngoại
 vi bên trong. Cụ thể với Timer vi điều khiển yêu cầu thông tin cấu hình của các cổng tương ứng như sau:
 ![Timer Pin Config](./docs/2.PinConfig.png)
+
 PWM hoạt động dựa trên chế độ Output Compare Channel do vậy để các chân tương ứng hoạt động ở chế độ PWM cần cấu hình các chân đó ở chế độ hoạt động Alternate function push-pull.
 
 ## Thử nghiệm
-- Thực hiện đo tín hiệu trên các chân A8, A9, A10, A11
+- Thực hiện đo tín hiệu trên các chân A8, A9, A10, A11 bằng cách sử dụng Oscilloscope hoặc Logic Analyzer như đã giới thiệu ở ví dụ về [Timer](../6.1.Timer/)
     - Xác định Chu kỳ, Độ rộng xung
     - Giải thích quan hệ của các thông số cấu hình và các tham số đo được thực tế.
 

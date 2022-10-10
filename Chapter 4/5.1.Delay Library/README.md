@@ -13,9 +13,9 @@ Delay.h
 extern "C" {
 #endif
 
-void DELAY_Init (unsigned char _CLK);
-void DELAY_ms (unsigned int _vrui_Time);
-void DELAY_us (unsigned long _vrui_Time)
+void Delay_Init (unsigned char _CLK);
+void Delay_ms (unsigned int _vrui_Time);
+void Delay_us (unsigned long _vrui_Time)
 
 #ifdef __cplusplus
 }
@@ -26,11 +26,11 @@ void DELAY_us (unsigned long _vrui_Time)
 ```
 
 Trong đó:
->**DELAY_Init**: Hàm khởi tạo thư viện Delay sử dụng Systick. Tham số đầu vào là tần số xung nhịp hệ thống chia cho 1.000.000
+>**Delay_Init**: Hàm khởi tạo thư viện Delay sử dụng Systick. Tham số đầu vào là tần số xung nhịp hệ thống chia cho 1.000.000
 
->**DELAY_us**: Hàm delay với hệ số là us.
+>**Delay_us**: Hàm delay với hệ số là us.
 
->**DELAY_ms**: Hàm delay với hệ số là ms.
+>**Delay_ms**: Hàm delay với hệ số là ms.
 
 Thư viện có thể được sử dụng với các trường hợp cần các giao tiếp hoặc xử lý yêu cầu khắt khe về thời gian (Yêu cầu tính chính xác cao).
 

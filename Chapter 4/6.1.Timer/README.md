@@ -16,6 +16,7 @@ $UEV = \dfrac{TIM\_CLK}{(PSC + 1) \times (ARR + 1) \times (RCR + 1)} (\mu s)$
 
 ## Bộ Timer Advanced-Control
 ![Sơ đồ bộ Timer Advanced-Control](./docs/1.TimerArchitectures.png)
+
 Bộ Timer Advanced-Control bao gồm TIM1 và TIM8 đối với dòng vi điều khiển STM32F1. Các bộ timer này có một số đặc điểm như sau:
 - Bộ đếm 16 bit có thể đếm tiến, lùi, tiến/lùi tự động nạp lại
 - Hỗ trợ bộ chia tần 16 bit có thể lập trình được.
@@ -30,6 +31,7 @@ Bộ Timer Advanced-Control bao gồm TIM1 và TIM8 đối với dòng vi điề
 
 ## Bộ Timer General Purpose
 ![Sơ đồ bộ Timer General-Purposr](./docs/2.TimerGeneral.png)
+
 Bộ Timer Advanced-Control bao gồm TIM2 đến TIM5 đối với dòng vi điều khiển STM32F1. Các bộ timer này có một số đặc điểm như sau:
 - Bộ đếm 16 bit có thể đếm tiến, lùi, tiến/lùi tự động nạp lại
 - Hỗ trợ bộ chia tần 16 bit có thể lập trình được.
