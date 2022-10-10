@@ -21,7 +21,7 @@ vi bên trong. Cụ thể với Timer vi điều khiển yêu cầu thông tin c
 PWM hoạt động dựa trên chế độ Output Compare Channel do vậy để các chân tương ứng hoạt động ở chế độ PWM cần cấu hình các chân đó ở chế độ hoạt động Alternate function push-pull.
 
 ## Thử nghiệm
-- Thực hiện đo tín hiệu trên các chân A8, A9, A10, A11 bằng cách sử dụng Oscilloscope hoặc Logic Analyzer như đã giới thiệu ở ví dụ về [Timer](../6.1.Timer/)
+- Thực hiện đo tín hiệu trên các chân A8, A9, A10, A11 bằng cách sử dụng Oscilloscope hoặc Logic Analyzer như đã giới thiệu ở ví dụ về [Timer](../6.1.Timer/README.md/#chương-trình)
     - Xác định Chu kỳ, Độ rộng xung
     - Giải thích quan hệ của các thông số cấu hình và các tham số đo được thực tế.
 
