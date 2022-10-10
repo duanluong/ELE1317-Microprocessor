@@ -12,7 +12,7 @@
     - Lập trình cơ bản với thanh ghi - [Source Code 1](./1.GPIO-Register-Output/) - [Source Code 2](./2.GPIO-Register-Input/)
     - Lập trình cơ bản với thư viện SPL - GPIO - [Source Code](./3.GPIO-SPL/)
     - Lập trình Systick - [Source Code](./4.Systick/)
-    - Thư viện Delay sử dujg Systick - [Source Code](./5.Delay%20Library/)
+    - Thư viện Delay sử dụng Systick - [Source Code](./5.Delay%20Library/)
     - Lập trình Timer - [Source Code]()
     - Lập trình ngắt ngoài EXIT - [Source Code]()
     - Lập trình ADC - [Source Code]()

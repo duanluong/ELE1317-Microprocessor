@@ -15,7 +15,7 @@ int main (void){
 	RCC_Config();
 	GPIO_Config();
 	while(1){
-		if(GPIO_GetButton()){
+		if(GPIO_GetButton() != 0){
 			GPIO_SetHighLevel();
 		}
 		else{
@@ -42,12 +42,16 @@ void GPIO_Config (void){
 	GPIOC->CRH = 0x00000000;
 	GPIOC->CRL = 0x00000000;
 	
+	GPIOB->CRH = 0x00000000;
+	GPIOB->CRL = 0x00000000;
+	
 	// Config C13 as Output Push-pull CNF[1:0] = 00, MODE[1:0] = 11
 	// CRL for pin 0-7
 	// CRH for pin 8-15
 	GPIOC->CRH |= 0x00300000;
 	// Config B9 as Input Pull-up CNF[1:0] = 10, MODE[1:0] = 00
 	GPIOB->CRH |= 0x00000080;
+	GPIOB->ODR |= (1<<9);
 }
 
 void GPIO_WriteToLED (unsigned char value){
