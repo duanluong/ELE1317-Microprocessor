@@ -9,6 +9,7 @@
     - Website mô phỏng ASM: [CPU-lator](https://cpulator.01xz.net/)
     - Hướng dẫn sử dụng CPU-lator: [Hướng dẫn CPU-lator](./1.%20CPU%20Lator/) - [Video hướng dẫn]()
     - Cấu trúc một chương trình cơ bản: [Cấu trúc chương trình](./3.1.Basic%20Program/)
+    - ARM Assembly Cheat Sheet: [Link 1](/Chapter%203/2.%20Documents/arm-cheatsheet.pdf) - [Link 2](/Chapter%203/2.%20Documents/ARMv7-cheat-sheet.pdf)
 - Các nội dung chính:
     1. Cấu trúc chương trình cơ bản - [Reference](./3.1.Basic%20Program/)
     1. Tập lệnh di chuyển dữ liệu - [Reference]()
