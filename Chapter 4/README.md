@@ -11,6 +11,7 @@
     | Cài đặt phần mềm Keil | [Video](https://youtu.be/2XGIxUrcIy8?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx) |
     | Kết nối Board với PC | [Video](https://youtu.be/EWmE7upEX6A?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx) |
     | Tạo dự án với phần mềm Keil for ARM | [Video](https://youtu.be/9QT82zmpWjo?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx) |
+    | Hướng dẫn sửa một số lỗi liên quan đến quá trình nạp và chạy | [Video](C:\Users\DuanLuong\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0) |
     | Dự án mẫu | [Code]() |
     | Lập trình cơ bản với thanh ghi | [Code 1](./1.GPIO-Register-Output/) - [Code 2](./2.GPIO-Register-Input/) |
     | Lập trình cơ bản với thư viện SPL - GPIO | [Code](./3.GPIO-SPL/) |

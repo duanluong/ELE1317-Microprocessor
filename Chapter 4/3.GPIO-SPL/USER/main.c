@@ -23,10 +23,12 @@ int main(void){
 			GPIO_WriteBit(GPIOC, GPIO_Pin_13, Bit_RESET);
 		}
 		
+		//----------------------------------
 		//Read A0-A7 and export to A8-A15
 		readInputValue = GPIO_ReadInputData(GPIOA);
 		GPIO_Write(GPIOA, readInputValue >> 8);
 		
+		//----------------------------------
 		//Increase value of B0-B7
 		countValue++;
 		GPIO_Write(GPIOB, countValue);

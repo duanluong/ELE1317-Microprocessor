@@ -15,9 +15,9 @@ int main (void){
 	GPIO_Config();
 	while(1){
 		GPIO_WriteToLED(1);
-		delay(5000);
+		delay(300);
 		GPIO_WriteToLED(0);
-		delay(5000);
+		delay(300);
 		/* 2nd way */
 //		GPIO_SetHighLevel();
 //		delay(1000);

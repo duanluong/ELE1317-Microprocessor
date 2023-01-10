@@ -14,7 +14,7 @@ int main (void){
 	
 	LED_Init();
 	while(1){
-		if(systick_Flag){
+		if(systick_Flag == 1){
 			systick_Flag = 0;
 			LED_Toggle();
 		}
