@@ -25,5 +25,3 @@
     | Updating...| |
 ---
 Playlist Youtube tham khảo Chương 4: [Link Youtube](https://www.youtube.com/playlist?list=PLZf5aJOZ4tz147ohBBZcFm0gOSNPhXIWx)
----
-Mọi ý kiến đóng góp xin gửi vào email: ptit.fee1.electroniccomputer@gmail.com

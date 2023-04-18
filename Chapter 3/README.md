@@ -20,5 +20,3 @@
     1. Truy vấn bộ nhớ - [Reference](./3.5.%20Memory/)
 - Các chương trình ví dụ
     1. Chương trình với lệnh số học - [Reference](./3.6.%20Example%2001%20-%20Add/)
----
-Mọi ý kiến đóng góp xin gửi vào email: ptit.fee1.electroniccomputer@gmail.com
